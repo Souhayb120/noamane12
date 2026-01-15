@@ -1186,6 +1186,16 @@ transition: opacity .3s,width 0s .3s,height 0s .3s;
 	display: flex;
 }
 
+ #nameN{
+	font-family:Manrope, sans-serif; 
+	color: white;
+	 font-weight: bolder; 
+	 border: 2px white solid;
+	  margin-right: 5px;
+}
+
+
+
 .social-team li{
 	font-size: 12px;
 	margin-left: 10px;
@@ -4601,6 +4611,8 @@ body.hidden-scroll {
             left: 10px;
             font-size: 3rem; } }
       @media (min-width: 50em) {
+
+		
         .sl-wrapper .sl-navigation button {
           width: 44px; }
           .sl-wrapper .sl-navigation button.sl-next {
@@ -5434,7 +5446,14 @@ body.hidden-scroll {
 }
 
 @media (max-width: 568px) {
-	
+	 #nameN{
+	font-family:Manrope, sans-serif; 
+	color: white;
+	 font-weight: bold; 
+	padding: 4px;
+	 border: 2px white solid;
+	  font-size: larger;
+}
 	.btn-header,
 	.btn-header-2{
 		display: none;
