@@ -1109,7 +1109,7 @@ transition: opacity .3s,width 0s .3s,height 0s .3s;
 .footer-social,
 .about-social {
 	display: flex;
-	
+	padding: 6px;
 	list-style: none;
 	margin: 0;
 	font-size: 0;
