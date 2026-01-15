@@ -1,0 +1,124 @@
+<div id="Contactheader"></div>
+<script>
+  fetch("header.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("Contactheader").innerHTML = data;
+    });
+</script>
+		<!-- /HEADER -->
+		<!-- TOP HEADER IMAGE -->
+		<div class="top-single-bkg topsinglepage">
+			<div class="topsingleimg"> <img src="https://lh3.googleusercontent.com/d/16ZJ5TR45OA1tRFoevP1-9DY5ymQD_3Td" alt="" width="1920" height="1080"></div>
+			<div class="inner-desc">
+				<div class="container">
+					<h1 class="display-2 single-post-title"> Contact</h1>
+					<span class="post-subtitle"> We're here to catch your event</span>
+				</div>
+			</div>
+		</div>
+		<!-- /TOP HEADER IMAGE -->
+		<!-- WRAP CONTENT -->
+		<div id="wrap-content" class="page-content custom-page-template">
+			<!-- SECTION 1 -->
+			<div id="contact-1-1" class="section-holder contact-1-1">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 margin-bm50">
+							<div class="margin-r50">
+								<h2 class="display-4">We're Ready to Work with You. Get in Touch</h2>
+							</div>
+						</div>
+						<!-- /col-lg-6 -->
+						<div class="col-lg-6">
+							<div class="row">
+								<div class="col-md-6">
+									<h5 class="widgettitle">Main Office</h5>
+									<p>Beni Mellal<br>noamanephotographer@gmail.com</p>
+								</div>
+								<!-- /col-md-6 -->
+								<div class="col-md-6">
+									<h5 class="widgettitle">Social</h5>
+									<ul class="social-media social-list">
+					<ul>
+										<li><a href="https://www.facebook.com/share/1G4yLVAmVh/?mibextid=wwXIfr">Facebook</a></li>
+										<li><a href="https://www.linkedin.com/in/noamane-essafi-94b0461b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a></li>
+										<li><a href="https://www.instagram.com/noamane_essafi?igsh=MWR5d2RpanlrMXdnNA%3D%3D&utm_source=qr">Instagram</a></li>
+										
+								
+									</ul>
+								</div>
+								<!-- /col-md-6 -->
+							</div>
+							<!-- /row -->	
+						</div>
+						<!-- /col-lg-6 -->
+					</div>
+					<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /SECTION 1 -->
+			<!-- SECTION 2 -->
+			<div id="contact-1-2" class="contact-1-2">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 order-mobi2">
+							<div class="margin-r50">
+								<div class="gmaps">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53940.61216500106!2d-6.414428570785662!3d32.33097013226402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda38649419c7fc1%3A0x6236b3e9a12bafd9!2sB%C3%A9ni%20Mellal!5e0!3m2!1sfr!2sma!4v1765227608286!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>								</div>
+							</div>
+						</div>
+						<!-- /col-lg-6 -->
+						<div class="col-lg-6 order-mobi1 margin-bm50">
+							<div id="contact-form-holder">
+								<form method="post" id="contact-form" action='include/contact-process.php'>
+									<div class="margin-b30"><input type="text" name="name" class="comm-field" placeholder="Name" /></div>
+									<div class="margin-b30"><input type="text" name="email" class="comm-field" placeholder="Email" /> </div>
+									<div class="margin-b30"><input type="text" name="phone" class="comm-field" placeholder="Phone" /> </div>
+									<div class="margin-b30"><textarea name="message" id="msg-contact" rows="5" placeholder="Message"></textarea></div>
+									<p class="antispam">Leave this empty: <input type="text" name="url" /></p>
+									<p><input type="submit" value="Send message" class="submit"/></p>
+								</form>
+							</div>
+							<!-- contact-form-holder-->
+							<div id="output-contact"></div>
+						</div>
+						<!-- /col-lg-6 -->
+					</div>
+					<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /SECTION 2 -->
+		</div>
+		<!-- /WRAP CONTENT -->
+		<!-- FOOTER -->
+	<p class="clear"><a href="#" rel="me" target="_blank" class="">Follow Us!</a></p>
+		</div>
+	<div id="footer"></div>
+<script>
+  fetch("footer.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+</script>
+		<div class="scrollup">
+			<a class="scrolltop" href="#">
+			<i class="fa fa-chevron-up"></i>
+			</a>
+		</div>
+		<!-- JS --> 
+		<script src='js/jquery.js'></script>
+		<script src='js/jquery-migrate.min.js'></script>
+		<script src='css/bootstrap/js/popper.min.js'></script>
+		<script src='css/bootstrap/js/bootstrap.min.js'></script>
+		<script src='js/jquery.easing.min.js'></script>
+		<script src='js/swiper.js'></script>
+		<script src='js/isotope.js'></script>
+		<script src='js/simple-lightbox.js'></script>
+		<!-- MAIN JS -->
+		<script src='js/init.js'></script>
+	</body>
+</html>
